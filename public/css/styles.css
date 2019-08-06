@@ -1,0 +1,73 @@
+body {
+    background: url('../img/me.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+  
+.site-header .navbar-nav .nav-link {
+    font-size: 100%;
+}
+  
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+  
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.resume {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.cover-heading {
+    color: white;
+}
+
+#name {
+    font-family: 'Lobster', 'cursive';
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.btn {
+    color: #b8b8b8;
+    font-family: 'Blinker', 'sans-serif';
+    font-weight: 600;
+}
+
+a {
+    color: b8b8b8;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.about-img {
+    float: right;
+    height: 40%;
+    width: 50%;
+    border-radius: 2%;
+    border: 2px solid #333333;
+}
+
+p {
+    padding: 2%;
+}
+
+.navbar {
+    background-color: #435058;
+    position: fixed;
+}
