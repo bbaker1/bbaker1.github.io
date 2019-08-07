@@ -57,10 +57,11 @@ a {
 
 .about-img {
     float: right;
-    height: 40%;
-    width: 50%;
+    height: auto;
+    width: 100%;
     border-radius: 2%;
     border: 2px solid #333333;
+    max-width: 50%;
 }
 
 p {
