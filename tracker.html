@@ -1,6 +1,7 @@
 <html lang="en">
 
 <head>
+    <title>Tracker</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -28,7 +29,9 @@
 
 </head>
 
-<header class="site-header">
+<body>
+
+<header class="site-header text-center">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
             <a id="benbaker" class="navbar-brand mr-4" href="index.html"><i class="fas fa-battery-full"></i> Ben Baker</a>
@@ -45,7 +48,7 @@
                             Projects
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="tracker.html">Project #1</a>
+                            <a class="dropdown-item" href="tracker.html">Tracker (React)</a>
                             <a class="dropdown-item" href="#">Project #2</a>
                             <a class="dropdown-item" href="#">Project #3</a>
                         </div>
@@ -67,12 +70,25 @@
     <div class="card border-0 shadow my-5">
         <div class="card-body p-5">
             <h1 class="font-weight-light">Tracker</h1>
-            <p class="lead">Info info info info info info info info info info info</p>
-            <p class="lead">Scroll down...</p>
-            <div style="height: 700px"></div>
-            <p class="lead mb-0">You've reached the end!</p>
+            <p class="lead">
+                I created this web application with React, Redux, and Victory to do more than a standard to-do list.
+            </p>
+            <img class="tracker-img" src="public/img/tracker1.png" />
+            <p class="lead">
+                Using Google OAuth to handle users and a JSON server API as my backend, if a user has
+                a Google account they can sign up and their tasks will be stored in a (temporary) database.
+                The user is required to give a description, the duration, and the category of the task.
+            </p>
+            <img class="tracker-img" src="public/img/tracker2.png" />
+            <p class="lead">
+                After inputting any number of completed tasks, the user can view a visualization of
+                how much time they spend on each category of tasks.
+            </p>
+            <img class="tracker-img" src="public/img/tracker3.png" />
+            <div style="height: 100px"></div>
         </div>
     </div>
 </div>
+</body>
 
 </html>
