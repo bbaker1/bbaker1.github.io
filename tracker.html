@@ -9,16 +9,16 @@
 
     <!-- Bootstrap core CSS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -31,68 +31,75 @@
 
 <body>
 
-<header class="site-header text-center">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container">
-            <a id="benbaker" class="navbar-brand mr-4" href="index.html"><i class="fas fa-battery-full"></i> Ben Baker</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
-                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggle">
-                <div class="navbar-nav mr-auto">
-                    <a class="nav-item nav-link" href="about.html">About Me</a>
-                    <div class="dropdown show">
-                        <a class="btn btn-primary-outline dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Projects
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="tracker.html">Tracker (React)</a>
-                            <a class="dropdown-item" href="#">Project #2</a>
-                            <a class="dropdown-item" href="#">Project #3</a>
+    <header class="site-header text-center">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container">
+                <a id="benbaker" class="navbar-brand mr-4" href="index.html"><i class="fas fa-battery-full"></i> Ben
+                    Baker</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link" href="about.html">About Me</a>
+                        <div class="dropdown show">
+                            <a class="btn btn-primary-outline dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Projects
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="tracker.html">Tracker</a>
+                                <a class="dropdown-item" href="streamer.html">Streamer</a>
+                                <a class="dropdown-item" href="learning.html">Additional Programming</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Navbar Right Side -->
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/benjamin-baker-02004b138/"
-                        target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-                    <a class="nav-item nav-link" href="https://www.github.com/bbaker1" target="_blank"><i
-                            class="fab fa-github fa-lg"></i></a>
+                    <!-- Navbar Right Side -->
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="https://www.linkedin.com/in/benjamin-baker-02004b138/"
+                            target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a class="nav-item nav-link" href="https://www.github.com/bbaker1" target="_blank"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
-<div class="container">
-    <div class="card border-0 shadow my-5">
-        <div class="card-body p-5">
-            <h1 class="font-weight-light"><a class="header-link" href="https://github.com/bbaker1/react-tracker" target="_blank">Tracker</a></h1>
-            <p class="lead">
-                I created this web application with React, Redux, and Victory to do more than a standard to-do list.
-            </p>
-            <img class="tracker-img" src="public/img/tracker1.png" />
-            <p class="lead">
-                Using Google OAuth to handle users and a JSON server API as my backend, if a user has
-                a Google account they can sign up and their tasks will be stored in a (temporary) database.
-                The user is required to give a description, the duration, and the category of the task.
-            </p>
-            <img class="tracker-img" src="public/img/tracker2.png" />
-            <p class="lead">
-                If a user is signed out, they cannot view any tasks or a graph.
-            </p>
-            <img class="tracker-img" src="public/img/tracker4.png" />
-            <p class="lead">
-                After inputting any number of completed tasks, the user can see a visualization of
-                how much time they spend on each task category.
-            </p>
-            <img class="tracker-img" src="public/img/tracker3.png" />
-            <div style="height: 100px"></div>
+    <div class="container">
+        <div class="card border-0 shadow my-5">
+            <div class="card-body p-5">
+                <h1 class="font-weight-light"><a class="header-link" href="https://github.com/bbaker1/react-tracker"
+                        target="_blank">Tracker</a></h1>
+                <p class="lead">
+                    I created this web application with React, Redux, and Victory to do more than a standard to-do list.
+                </p>
+                <img class="tracker-img" src="public/img/tracker1.png" />
+                <p class="lead">
+                    Using Google OAuth to handle users and a JSON server API as my backend, if a user has
+                    a Google account they can sign up and their tasks will be stored in a (temporary) database.
+                    The user is required to give a description, the duration, and the category of the task.
+                </p>
+                <img class="tracker-img" src="public/img/tracker2.png" />
+                <p class="lead">
+                    This application supports CRUD operations. If a user wishes to delete a task, a modal will
+                    appear with the option to delete or cancel.
+                </p>
+                <img class="tracker-img" src="public/img/tracker5.png" />
+                <p class="lead">
+                    If a user is signed out, they cannot view any tasks or a graph.
+                </p>
+                <img class="tracker-img" src="public/img/tracker4.png" />
+                <p class="lead">
+                    After inputting any number of completed tasks, the user can see a visualization of
+                    how much time they spend on each task category.
+                </p>
+                <img class="tracker-img" src="public/img/tracker3.png" />
+                <div style="height: 100px"></div>
+            </div>
         </div>
     </div>
-</div>
 </body>
 
 </html>
