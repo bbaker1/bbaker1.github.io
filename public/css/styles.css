@@ -23,7 +23,7 @@ body {
 
 .resume {
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     margin-top: -50px;
     margin-left: -100px;
@@ -95,4 +95,15 @@ img {
 
 .header-link {
     color: #000000;
+}
+
+.rounded-circle {
+    position: fixed;
+    top: 20%;
+    left: 46%;
+    margin-top: -50px;
+    margin-left: -100px;
+    height: 40%;
+    width: 20%;
+    border: 3pt solid #435058;
 }
