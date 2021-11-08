@@ -30,7 +30,7 @@ body {
 }
 
 .cover-heading {
-    color: white;
+    color: #435058;
 }
 
 #name {
@@ -99,11 +99,11 @@ img {
 
 .rounded-circle {
     position: fixed;
-    top: 20%;
-    left: 46%;
+    top: 35%;
+    left: 50%;
     margin-top: -50px;
     margin-left: -100px;
-    height: 40%;
-    width: 20%;
+    height: 25%;
+    width: auto;
     border: 3pt solid #435058;
 }
