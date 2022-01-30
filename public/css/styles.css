@@ -1,5 +1,5 @@
 body {
-    background: url('../img/me.png') no-repeat center center fixed;
+    background: url('../img/cool-background.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -23,14 +23,14 @@ body {
 
 .resume {
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     margin-top: -50px;
     margin-left: -100px;
 }
 
 .cover-heading {
-    color: white;
+    color: #435058;
 }
 
 #name {
@@ -48,7 +48,7 @@ body {
 }
 
 a {
-    color: b8b8b8;
+    color: #b8b8b8;
 }
 
 .btn:hover {
@@ -95,4 +95,15 @@ img {
 
 .header-link {
     color: #000000;
+}
+
+.rounded-circle {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    height: 25%;
+    width: auto;
+    border: 3pt solid #435058;
 }
